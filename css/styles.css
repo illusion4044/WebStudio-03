@@ -126,7 +126,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 padding: 16px 32px 16px 32px;
-border-radius: 4;
+border-radius: 4px;
 
 }
 .button-words{
@@ -150,6 +150,7 @@ background:  #404BBF;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center
+    
 }
 /*--------------------SECTION3-------------------*/
 .background-section{
@@ -182,6 +183,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+margin-bottom: 2px;
 }
 .paragraph-words {
     color: #434455;
@@ -190,6 +193,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+
 }
 
 
