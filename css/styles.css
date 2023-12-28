@@ -4,29 +4,49 @@ body {
     background-color: #FFF;
 }
 
-p, h1,h2,h3,h4,h5,h6 {
-margin-top: 0; margin-bottom: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+margin-bottom: 0;
 }
 
-a{
-    text-decoration: none;
-    color: currentColor;
+a {
+text-decoration: none;
+color: currentColor;
 }
 
-ul, ol{
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+ul {
+list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 
-.container{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+button {
+cursor: pointer;
 }
 
+address {
+font-style: normal;
+}
+
+.container {
+width: 100%;
+max-width: 1440px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+.link {
+text-decoration: none;
+}
 .header{
     padding-top: 25.5px;
     padding-bottom: 25.5px;
@@ -85,7 +105,6 @@ letter-spacing: 0.02em;
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 472px 292px 472px;
-    
 }
 
 .main-words {
@@ -97,6 +116,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 48px;
+max-width: 496px;
 }
 .main-button {
     color: #ffffff;
@@ -107,8 +127,6 @@ letter-spacing: 0.04em;
 cursor: pointer;
 padding: 16px 32px 16px 32px;
 border-radius: 4;
-
-
 
 }
 .button-words{
