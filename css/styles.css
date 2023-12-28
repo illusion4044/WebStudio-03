@@ -4,6 +4,10 @@ body {
     background-color: #FFF;
 }
 
+p, h1,h2,h3,h4,h5,h6 {
+margin-top: 0; margin-bottom: 0;
+}
+
 a{
     text-decoration: none;
     color: currentColor;
@@ -12,6 +16,8 @@ a{
 ul, ol{
     list-style: none;
     margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 .container{
@@ -22,8 +28,8 @@ ul, ol{
 }
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .logo {
@@ -34,6 +40,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-left: 156px;
+padding-right: 1240px;
 }
 .logo-part {
     color: #2E2F42;
@@ -45,6 +53,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+
 }
 
 .nav-link:hover,
@@ -70,7 +79,9 @@ letter-spacing: 0.02em;
 /*--------------MAIN-------------*/
 .first-section{
     background-color: #2E2F42;
-    text-align: center
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .main-words {
@@ -80,7 +91,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-text-align: center
+text-align: center;
+margin-bottom: 48px;
 }
 .main-button {
     color: #ffffff;
@@ -89,6 +101,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+padding: 16px 32px 16px 32px;
 
 
 
