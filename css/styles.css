@@ -77,11 +77,15 @@ letter-spacing: 0.02em;
 }
 
 /*--------------MAIN-------------*/
+.hero{
+    padding-bottom: 120px;
+}
+
 .first-section{
     background-color: #2E2F42;
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding: 188px 472px 292px 472px;
+    
 }
 
 .main-words {
@@ -102,6 +106,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 padding: 16px 32px 16px 32px;
+border-radius: 4;
 
 
 
