@@ -47,9 +47,22 @@ margin: 0 auto;
 .link {
 text-decoration: none;
 }
+
+/*--------------------HEADER-------------------*/
 .header{
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+}
+
+.header{
+    color:  #2E2F42;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 
 .logo {
@@ -97,6 +110,7 @@ letter-spacing: 0.02em;
 }
 
 /*--------------MAIN-------------*/
+/*--------------------SECTION1-------------------*/
 .hero{
     padding-bottom: 120px;
 }
@@ -142,6 +156,28 @@ letter-spacing: 0.04em;
 background:  #404BBF;
 
 }
+
+/*--------------------SECTION2-------------------*/
+.approaches {
+    color: #2E2F42;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+}
+.paragraph-words {
+    color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+
+}
+
 .approach-words {
     color:  #2E2F42;
     font-family: Roboto;
@@ -166,7 +202,7 @@ background:  #404BBF;
     background-color: #FFFFFF;
 }
 
-.header{
+.ourteam-header{
     color:  #2E2F42;
 font-family: Roboto;
 font-size: 36px;
@@ -176,7 +212,8 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 }
-.approaches {
+
+.ourteam-names {
     color: #2E2F42;
 font-family: Roboto;
 font-size: 20px;
@@ -185,7 +222,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 padding: 120px 1020px 120px 156px;
 }
-.paragraph-words {
+
+.ourteam-words {
     color: #434455;
 font-family: Roboto;
 font-size: 16px;
@@ -196,7 +234,38 @@ padding: 120px 1020px 120px 156px;
 
 }
 
+/*--------------------SECTION4-------------------*/
 
+.portfolio-header{
+    color:  #2E2F42;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+}
+
+.ourportfolio-apps {
+    color: #2E2F42;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+}
+
+.app-words {
+    color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 120px 1020px 120px 156px;
+}
 
 /*--------------------FOOTER-------------------*/
 
