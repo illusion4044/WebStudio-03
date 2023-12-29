@@ -35,6 +35,10 @@ address {
 font-style: normal;
 }
 
+img{
+    display: block;
+}
+
 .container {
 width: 100%;
 max-width: 1440px;
@@ -87,6 +91,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 1045px;
 display: flex;
+align-items: center;
+
 
 }
 
@@ -105,6 +111,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 347px;
 display: flex;
+
 }
 
 .address-link:hover,
@@ -161,6 +168,14 @@ background:  #404BBF;
 }
 
 /*--------------------SECTION2-------------------*/
+
+.list{
+    display: flex;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
 .approaches {
     color: #2E2F42;
 font-family: Roboto;
