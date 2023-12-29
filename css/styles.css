@@ -187,6 +187,8 @@ margin-bottom: 120px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center
+    text-align: center;
+    padding-bottom: 72px;
     
 }
 /*--------------------SECTION3-------------------*/
@@ -212,6 +214,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+padding-bottom: 72px;
 }
 
 .photo-team{
@@ -251,6 +254,11 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+padding-bottom: 72px;
+}
+
+.portfolio-photo{
+    padding-bottom: 32px;
 }
 
 .ourportfolio-apps {
@@ -260,7 +268,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding: 120px 1020px 120px 156px;
+padding-bottom: 8px;
+
 }
 
 .app-words {
@@ -270,7 +279,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding: 120px 1020px 120px 156px;
+padding-bottom: 32px;
 }
 
 /*--------------------FOOTER-------------------*/
