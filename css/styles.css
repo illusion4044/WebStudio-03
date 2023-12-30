@@ -245,14 +245,14 @@ letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
     padding: 120px 0;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1200px;
     width: 100%;
-  }
-  
-  .ourteam-header {
+}
+
+.ourteam-header {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 36px;
@@ -262,9 +262,9 @@ letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 48px;
-  }
-  
-  .employee-list {
+}
+
+.employee-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -272,25 +272,25 @@ letter-spacing: 0.02em;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-  }
-  
-  .team-member {
+}
+
+.team-member {
     background-color: #FFFFFF;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     padding: 32px 0;
-  }
-  
-  .photo-team {
+}
+
+.photo-team {
     margin-bottom: 16px;
-  }
-  
-  .employee-container {
+}
+
+.employee-container {
     margin-top: 16px; /* Adjusted margin for better spacing */
-  }
-  
-  .ourteam-names {
+}
+
+.ourteam-names {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -298,9 +298,9 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-  }
-  
-  .ourteam-words {
+}
+
+.ourteam-words {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -308,7 +308,7 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-  }
+}
 
 /*--------------------SECTION4-------------------*/
 
