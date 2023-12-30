@@ -149,9 +149,8 @@ gap: 40px;
 .first-section{
     background-color: #2E2F42;
     text-align: center;
-    padding: 188px 472px 292px 472px;
-    max-width: 1440px;
-    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .main-words {
@@ -187,7 +186,6 @@ letter-spacing: 0.04em;
 .main-button:hover,
 .main-button:focus{
 background:  #404BBF;
-
 }
 
 /*--------------------SECTION2-------------------*/
@@ -350,8 +348,9 @@ padding-bottom: 32px;
 
 .footer{
     background-color: #2E2F42;
-    width: 1158px;
-    height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 .logo-footer{
@@ -388,5 +387,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding-top: 17px;
 margin-left: 156px;
+margin-right: 1020px;
 
 }
