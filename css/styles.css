@@ -353,9 +353,8 @@ padding-bottom: 32px;
 
 .footer{
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+    padding: 100px 0;
+    flex-shrink: 0;
 }
 
 .logo-footer{
@@ -366,8 +365,9 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding: 101.5px 1240px 189.5px 156px;
-
+display: inline-block;
+margin-right: 76px;
+padding-bottom: 16px;
 }
 
 .logo-white{
