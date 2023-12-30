@@ -22,9 +22,8 @@ color: currentColor;
 
 ul {
 list-style: none;
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
+margin: 0;
+padding: 0;
 }
 
 button {
@@ -40,10 +39,8 @@ img{
 }
 
 .container {
-width: 100%;
-max-width: 1440px;
-padding-left: 15px;
-padding-right: 15px;
+max-width: 1158px;
+padding: 0 15px;
 margin: 0 auto;
 }
 
@@ -52,9 +49,9 @@ text-decoration: none;
 }
 
 /*--------------------HEADER-------------------*/
-.header{
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+.header-container{
+    display: flex;
+    align-items: center;
 }
 
 .header{
@@ -66,6 +63,22 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+border-bottom: 1px solid  #E7E9FC;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
+
+.adress-list{
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -76,8 +89,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-left: 156px;
-padding-right: 1240px;
+margin-right: 76px;
 }
 .logo-part {
     color: #2E2F42;
@@ -91,9 +103,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 1045px;
 display: flex;
-align-items: center;
-
-
+padding: 24px 0;
+display: block;
 }
 
 .nav-link:hover,
@@ -102,6 +113,7 @@ align-items: center;
 }
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 .address-link {
 color:  #434455;
@@ -111,7 +123,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 347px;
 display: flex;
-
 }
 
 .address-link:hover,
@@ -129,6 +140,7 @@ display: flex;
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 472px 292px 472px;
+    max-width: 1440px;
 }
 
 .main-words {
