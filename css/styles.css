@@ -44,6 +44,18 @@ padding: 0 15px;
 margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
 .link {
 text-decoration: none;
 }
@@ -203,7 +215,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 120px;
 
-
 }
 
 .approach-words {
@@ -215,12 +226,12 @@ margin-bottom: 120px;
     letter-spacing: 0.02em;
     text-align: center;
     padding-bottom: 72px;
-    
 }
 /*--------------------SECTION3-------------------*/
 .background-section{
     background-color: #F4F4FD;
     display: flex;
+    justify-content: center;
 }
 
 
@@ -229,12 +240,14 @@ margin-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 
 .team-member{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-background: var(--WHITE, #FFF);
+background:  #FFF;
+text-align: center; 
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
@@ -247,7 +260,9 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+margin-bottom: 120px;
 padding-bottom: 72px;
+
 }
 
 .photo-team{
@@ -278,6 +293,22 @@ margin-bottom: 32px;
 
 /*--------------------SECTION4-------------------*/
 
+.app-card{
+    border: 1px solid #E7E9FC;
+background:  #FFF;
+width: calc((100% - 48px) / 3);
+
+}
+.section-four{
+    margin-bottom: 120px;
+}
+.list-app{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
 .portfolio-header{
     color:  #2E2F42;
 font-family: Roboto;
@@ -287,6 +318,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
+margin-top: 120px;
 padding-bottom: 72px;
 }
 
@@ -314,12 +346,29 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding-bottom: 32px;
 }
-
 /*--------------------FOOTER-------------------*/
 
 .footer{
     background-color: #2E2F42;
+    width: 1158px;
+    height: 312px;
 }
+
+.logo-footer{
+    color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-top: 101.5px;
+margin-right: 1240px;
+margin-left: 156px;
+padding-bottom: 17px;
+
+}
+
 .logo-white{
     color: #F4F4FD;
 font-family: Raleway;
@@ -337,4 +386,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 17px;
+margin-left: 156px;
+
 }
