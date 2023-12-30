@@ -101,8 +101,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-right: 1045px;
-display: flex;
 padding: 24px 0;
 display: block;
 }
@@ -115,14 +113,12 @@ display: block;
     font-style: normal;
     margin-left: auto;
 }
-.address-link {
+.adress-link {
 color:  #434455;
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-right: 347px;
-display: flex;
 }
 
 .address-link:hover,
@@ -141,6 +137,7 @@ display: flex;
     text-align: center;
     padding: 188px 472px 292px 472px;
     max-width: 1440px;
+    height: 600px;
 }
 
 .main-words {
