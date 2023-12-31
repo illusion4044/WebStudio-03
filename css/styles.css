@@ -406,6 +406,13 @@ background:  #404BBF;
     background-color: #2E2F42;
     padding: 100px 0;
     flex-shrink: 0;
+    
+    
+}
+
+.footer-container{
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .logo-footer{
