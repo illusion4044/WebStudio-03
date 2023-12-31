@@ -146,7 +146,7 @@ gap: 40px;
 .hero{
     
     margin: 0 auto;
-    padding: 188px 0
+    
 }
 
 .first-section{
@@ -295,16 +295,17 @@ background:  #404BBF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     padding: 32px 0;
-    border-radius: 0px 0px 4px 4px;
+    
 
 }
 
 .photo-team {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .employee-container {
-    padding: 32px 0;
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 
 .ourteam-names {
@@ -329,11 +330,10 @@ background:  #404BBF;
 
 .employee-list li.first-member {
     width: calc((100% - 72px) / 4);
-}
-
-.employee-list li.first-member .team-member {
     border-radius: 0px 0px 4px 4px;
 }
+
+
 
 /* SECTION4 */
 
@@ -395,7 +395,7 @@ background:  #404BBF;
 }
 
 .app-container {
-    padding: 32px;  /* Added padding for app container */
+    padding: 32px 16px;  /* Added padding for app container */
     border: 1px solid #E7E9FC; /* Added border for app container */
     border-top: none; /* Removed top border for app container */
     margin-bottom: 8px; /* Adjusted margin between title and description */
