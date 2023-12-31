@@ -64,6 +64,7 @@ text-decoration: none;
 .header-container{
     display: flex;
     align-items: center;
+    width: 1158px
 }
 
 .header{
@@ -143,8 +144,9 @@ gap: 40px;
 /*--------------MAIN-------------*/
 /*--------------------SECTION1-------------------*/
 .hero{
-    padding-bottom: 120px;
+    
     margin: 0 auto;
+    padding: 188px 0
 }
 
 .first-section{
@@ -252,7 +254,6 @@ background:  #404BBF;
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
-
 /* SECTION3 */
 .background-section {
     background-color: #F4F4FD;
@@ -294,6 +295,7 @@ background:  #404BBF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -325,11 +327,11 @@ background:  #404BBF;
     margin-bottom: 16px;
 }
 
-.employee-list li:first-child {
+.employee-list li.first-member {
     width: calc((100% - 72px) / 4);
 }
 
-.employee-list li:first-child .team-member {
+.employee-list li.first-member .team-member {
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -379,6 +381,7 @@ background:  #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .app-words {
@@ -392,7 +395,7 @@ background:  #404BBF;
 }
 
 .app-container {
-    padding: 32px 16px; /* Added padding for app container */
+    padding: 32px;  /* Added padding for app container */
     border: 1px solid #E7E9FC; /* Added border for app container */
     border-top: none; /* Removed top border for app container */
     margin-bottom: 8px; /* Adjusted margin between title and description */
@@ -416,6 +419,7 @@ text-transform: uppercase;
 display: inline-block;
 margin-right: 76px;
 padding-bottom: 16px;
+margin-bottom: 16px;
 
 }
 
