@@ -319,60 +319,67 @@ letter-spacing: 0.02em;
     border-radius: 0px 0px 4px 4px;
 }
 
-/*--------------------SECTION4-------------------*/
-
-.app-card{
-    border: 1px solid #E7E9FC;
-background:  #FFF;
-width: calc((100% - 48px) / 3);
-
-}
-.section-four{
+.section-four {
     margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.list-app{
+
+.list-app {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-}
-.portfolio-header{
-    color:  #2E2F42;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-margin-top: 120px;
-padding-bottom: 72px;
 }
 
-.portfolio-photo{
+.app-card {
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-header {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.portfolio-photo {
     padding-bottom: 32px;
 }
 
 .ourportfolio-apps {
     color: #2E2F42;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-padding-bottom: 8px;
-
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .app-words {
     color: #434455;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-padding-bottom: 32px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
+.app-container {
+    padding: 32px 16px; /* Added padding for app container */
+    border: 1px solid #E7E9FC; /* Added border for app container */
+    border-top: none; /* Removed top border for app container */
+    margin-bottom: 8px; /* Adjusted margin between title and description */
 }
 /*--------------------FOOTER-------------------*/
 
