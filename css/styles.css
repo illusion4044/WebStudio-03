@@ -146,6 +146,10 @@ gap: 40px;
 
 /*--------------MAIN-------------*/
 /*--------------------SECTION1-------------------*/
+.hero{
+    padding: 188px 0;
+}
+
 .first-section{
     background-color: #2E2F42;
     margin: 0 auto;
@@ -197,20 +201,16 @@ background:  #404BBF;
 }
 
 /*--------------------SECTION2-------------------*/
-
 .hero-sctwo {
     padding: 120px 0;
 }
-
 .list {
     display: flex;
     gap: 24px;
 }
-
 .sectiontwo-list {
     width: calc((100% - 72px) / 4);
 }
-
 .approaches,
 .approach-words {
     color: #2E2F42;
@@ -218,13 +218,11 @@ background:  #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
 .approaches {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
 }
-
 .approach-words {
     font-size: 36px;
     font-weight: 700;
@@ -233,7 +231,6 @@ background:  #404BBF;
     text-align: center;
     padding-bottom: 72px;
 }
-
 .paragraph-words {
     color: #434455;
     font-size: 16px;
@@ -241,7 +238,6 @@ background:  #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 /* Hide visually but still accessible text */
 .visually-hidden {
     position: absolute;
@@ -253,6 +249,7 @@ background:  #404BBF;
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
 /* SECTION3 */
 .background-section {
     background-color: #F4F4FD;
@@ -260,8 +257,10 @@ background:  #404BBF;
     justify-content: center;
     padding: 120px 0;
 }
-
-
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
 .ourteam-header {
     color: #2E2F42;
     font-family: Roboto;
@@ -273,7 +272,6 @@ background:  #404BBF;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
 .employee-list {
     list-style: none;
     margin: 0;
@@ -283,24 +281,21 @@ background:  #404BBF;
     gap: 24px;
     justify-content: center;
 }
-
 .team-member {
     background-color: #FFFFFF;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     padding: 32px 0;
-}
+    border-radius: 0px 0px 4px 4px;
 
+}
 .photo-team {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
-
 .employee-container {
-    padding-top: 32px; 
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
-
 .ourteam-names {
     color: #2E2F42;
     font-family: Roboto;
@@ -310,7 +305,6 @@ background:  #404BBF;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-
 .ourteam-words {
     color: #434455;
     font-family: Roboto;
@@ -320,7 +314,6 @@ background:  #404BBF;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-
 .employee-list li.first-member {
     width: calc((100% - 72px) / 4);
 }
@@ -328,7 +321,6 @@ background:  #404BBF;
 .employee-list li.first-member .team-member {
     border-radius: 0px 0px 4px 4px;
 }
-
 /* SECTION4 */
 
 .section-four {
