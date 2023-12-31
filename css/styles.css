@@ -39,7 +39,7 @@ img{
 }
 
 .container {
-max-width: 1158px;
+width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
@@ -64,7 +64,8 @@ text-decoration: none;
 .header-container{
     display: flex;
     align-items: center;
-    width: 1158px
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .header{
@@ -77,6 +78,8 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 border-bottom: 1px solid  #E7E9FC;
+width: 1158px;
+margin: 0 auto;
 }
 
 .navigation{
@@ -146,12 +149,12 @@ gap: 40px;
 .hero{
     
     margin: 0 auto;
-    
+    padding: 188px 0;
 }
 
 .first-section{
     background-color: #2E2F42;
-    padding: 188px 0;
+    
 }
 
 .main-words {
@@ -199,7 +202,7 @@ background:  #404BBF;
 
 /*--------------------SECTION2-------------------*/
 
-.hero-sc2 {
+.hero-sctwo {
     padding: 120px 0;
 }
 
@@ -208,7 +211,7 @@ background:  #404BBF;
     gap: 24px;
 }
 
-.section2-list {
+.sectiontwo-list {
     width: calc((100% - 72px) / 4);
 }
 
@@ -330,6 +333,9 @@ background:  #404BBF;
 
 .employee-list li.first-member {
     width: calc((100% - 72px) / 4);
+}
+
+.employee-list li.first-member .team-member {
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -406,8 +412,6 @@ background:  #404BBF;
     background-color: #2E2F42;
     padding: 100px 0;
     flex-shrink: 0;
-    
-    
 }
 
 .footer-container{
