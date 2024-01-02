@@ -61,13 +61,15 @@ text-decoration: none;
 }
 
 /*--------------------HEADER-------------------*/
-.header-container{
-    display: flex;
-    align-items: center;
+
+.header{
     border-bottom: 1px solid  #E7E9FC;
 }
 
-
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 .navigation{
     display: flex;
