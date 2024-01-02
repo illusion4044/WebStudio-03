@@ -64,23 +64,9 @@ text-decoration: none;
 .header-container{
     display: flex;
     align-items: center;
-    width: 1158px;
-    margin: 0 auto;
 }
 
-.header{
-    color:  #2E2F42;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-border-bottom: 1px solid  #E7E9FC;
-width: 1158px;
-margin: 0 auto;
-}
+
 
 .navigation{
     display: flex;
@@ -133,6 +119,7 @@ display: block;
 color:  #434455;
 font-family: Roboto;
 font-size: 16px;
+font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
@@ -147,15 +134,12 @@ gap: 40px;
 /*--------------MAIN-------------*/
 /*--------------------SECTION1-------------------*/
 .hero{
-    padding: 188px 0;
-}
-
-.first-section{
     background-color: #2E2F42;
     margin: 0 auto;
     padding: 188px 0;
-    
 }
+
+
 
 .main-words {
 color: #FFF;
@@ -257,10 +241,7 @@ background:  #404BBF;
     justify-content: center;
     padding: 120px 0;
 }
-.container {
-    max-width: 1200px;
-    width: 100%;
-}
+
 .ourteam-header {
     color: #2E2F42;
     font-family: Roboto;
@@ -286,12 +267,10 @@ background:  #404BBF;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
-    padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
 
 }
 .photo-team {
-    margin-bottom: 16px;
     display: block;
     max-width: 100%;
     height: auto;
@@ -315,7 +294,6 @@ background:  #404BBF;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 .employee-list li.first-member {
     width: calc((100% - 72px) / 4);
@@ -354,12 +332,10 @@ background:  #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
 .portfolio-photo {
-    padding-bottom: 32px;
 }
 
 .ourportfolio-apps {
@@ -369,7 +345,6 @@ background:  #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
     margin-bottom: 8px;
 }
 
@@ -380,14 +355,12 @@ background:  #404BBF;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 .app-container {
-    padding: 32px 16px;  /* Added padding for app container */
-    border: 1px solid #E7E9FC; /* Added border for app container */
-    border-top: none; /* Removed top border for app container */
-    margin-bottom: 8px; /* Adjusted margin between title and description */
+    padding: 32px 16px;  
+    border: 1px solid #E7E9FC; 
+    border-top: none; 
 }
 /*--------------------FOOTER-------------------*/
 
@@ -412,7 +385,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
 margin-right: 76px;
-padding-bottom: 16px;
 margin-bottom: 16px;
 
 }
@@ -434,4 +406,5 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
