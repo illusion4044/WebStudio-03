@@ -64,6 +64,7 @@ text-decoration: none;
 .header-container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid  #E7E9FC;
 }
 
 
