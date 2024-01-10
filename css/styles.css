@@ -211,6 +211,27 @@ background:  #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+.scone-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+width: 264px;
+height: 112px;
+border-radius: 4px;
+border: 1px solid #8E8F99;
+background:  #F4F4FD;
+margin-bottom: 8px;
+}
+
+.scone-svg{
+    width: 64px;
+    height: 64px;
+    
+}
+
+
 .approaches {
     font-size: 20px;
     font-weight: 500;
@@ -304,6 +325,9 @@ background:  #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
 .employee-list li.first-member {
     width: calc((100% - 72px) / 4);
 }
