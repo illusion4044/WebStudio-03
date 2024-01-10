@@ -446,7 +446,23 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
 }
+
+.soc-media-text{
+    display: flex;
+color:  #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+justify-content: center;
+margin-right: 804px;
+margin-left: 540px;
+}
+
 .social-icons-footer{
     display: flex;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
